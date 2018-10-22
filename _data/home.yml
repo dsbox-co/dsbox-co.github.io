@@ -1,0 +1,67 @@
+intro:
+  lead-in: "DS Box"
+  heading: From Theory to Production
+  btn: Tell Me More
+
+services:
+  heading: Services
+  subheading: Lorem ipsum dolor sit amet consectetur.
+  service:
+    - icon: fa fa-shopping-cart
+      heading: Natural Language Processing
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - icon: fa fa-laptop
+      heading: Digital Marketing & Ad Tech
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+    - icon: fa fa-lock
+      heading: Big Data Architecture
+      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+team:
+  heading: Our Amazing Team
+  subheading: The team has several years of expertise in building & deploying production grade systems to get the most out of your data
+  members:
+    - name: Daniel Samarov
+      role: Data Scientist
+      img: img/team/dan_1.png
+      social-buttons:
+        - icon: fa fa-twitter
+          url: "#"
+        - icon: fa fa-facebook
+          url: "#"
+        - icon: fa fa-linkedin
+          url: "#"
+    - name: Vikas Shanbhogue
+      role: Software Engineer
+      img: img/team/vikas_1.png
+      social-buttons:
+        - icon: fa fa-linkedin
+          url: "https://www.linkedin.com/in/vikas-shanbhogue-11315b4b/"
+
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+
+clients:
+  - img: img/logos/adext.jpg
+    url: "#"
+  - img: img/logos/aurora-north.jpg
+    url: "#"
+  - img: img/logos/moen.jpg
+    url: "#"
+
+contact:
+  heading: Contact Us
+  subheading: We'd love to hear your comments & questions
+  name: Your Name *
+  name-required: Please enter your name.
+  email: Your Email *
+  email-required: Please enter your email address.
+  phone: Your Phone *
+  phone-required: Please enter your phone number.
+  message: Your Message *
+  message-required: Please enter a message.
+  btn: Send Message
+
+  js-url: '././mail/contact_me.php'
+  js-success: 'Your message has been sent. '
+  js-error: 'Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!'
+  js-error-min: 'Sorry "+i+", it seems that my mail server is not responding. Please try again later!'
