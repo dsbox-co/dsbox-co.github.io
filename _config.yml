@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DS Box
-email: your-email@example.com
+email: info@dsbox.co
 description: >- # this means to ignore newlines until "baseurl:"
   DS Box specializes in full service solutions for Big Data, Machine Learning & Artificial Intelligence problems. We leverage our experience to work on problems pertinent to Digital Marketing, Text Processing, Optimization & Big Data Architecture (Spark, Hadoop, AWS, Azure, GCP)
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,6 +34,17 @@ sass: # Enables the conversion of css/agency.min.scss to  css/agency.min.css
 collections: # Enables additional data structures
   projects: # Enables _projects
 
+# User setting
+owner:
+facebook_username:
+twitter_username:
+github_username: 
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here 
+telephone:
+copyright:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
