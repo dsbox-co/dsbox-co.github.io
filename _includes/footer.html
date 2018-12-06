@@ -1,7 +1,8 @@
-<footer>
+<footer id="contact">
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
+                <!-- 
         <h4><strong>{{ site.owner }}</strong>
         </h4>
         <p>
@@ -9,10 +10,12 @@
           {{ address.line }}<br>
           {% endfor %}
         </p>
+          <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li> 
+
+        -->
         <ul class="list-unstyled">
-          <!--- <li><i class="fa fa-phone fa-fw"></i> {{ site.telephone }}</li> -->
-          <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email}}</a>
-          </li>
+          <li><h3><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          <h3></li> 
         </ul>
         <br>
         <ul class="list-inline">

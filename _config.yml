@@ -19,8 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   DS Box specializes in full service solutions for Big Data, Machine Learning & Artificial Intelligence problems. We leverage our experience to work on problems pertinent to Digital Marketing, Text Processing, Optimization & Big Data Architecture (Spark, Hadoop, AWS, Azure, GCP)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: uhoh
-github_username: dsbox-co
+
 
 # Build settings
 markdown: kramdown
@@ -31,20 +30,18 @@ plugins:
 sass: # Enables the conversion of css/agency.min.scss to  css/agency.min.css
   style: compressed # Minify css/agency.min.css
 
-collections: # Enables additional data structures
-  projects: # Enables _projects
-
 # User setting
 owner:
 facebook_username:
-twitter_username:
-github_username: 
+twitter_username: uhoh
+github_username: dsbox-co
 address:
   - line:
   - line:
   # Feel free to add more lines here 
-telephone:
-copyright:
+telephone: 
+copyright: 
+time: 2018-05-01
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
