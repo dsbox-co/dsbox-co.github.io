@@ -170,6 +170,7 @@ hr.small {
 .text-dark {
   color: black;
   font-weight: bold;
+  text-shadow: 2px 2px #fff;
 }
 /* About */
 
