@@ -317,3 +317,7 @@ footer {
 .vertical-middle {
   vertical-align: middle;
 }
+
+.header-button {
+  margin-bottom: 10px;
+}
